@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_camara">
+
+
+    <fragment
+        android:id="@+id/nav_camara"
+        android:name="com.julio.parcial4_olivares_25_2088_2015.ui.camara.CamaraFragment"
+        android:label="fragment_camara"
+        tools:layout="@layout/fragment_camara" />
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.julio.parcial4_olivares_25_2088_2015.ui.galeria.GaleriaFragment"
+        android:label="fragment_galeria"
+        tools:layout="@layout/fragment_galeria" />
+</navigation>
